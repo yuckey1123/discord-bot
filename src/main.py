@@ -1,9 +1,9 @@
+import os
 import random
+from config import DISCORD_BOT_TOKEN
 import discord
 from discord.ext import commands
 from discord_slash import SlashCommand, SlashContext
-
-TOKEN = 'MTAxNjYxMjIxNDE0NjMzNDc1MA.GNHhyK.9nC3ClOneyBGJw4qKIeOIEG86a8ZTW6OYpKTTU'
 
 intents = discord.Intents.all()
 # intents.message_content = True
@@ -54,4 +54,4 @@ async def on_message(message):
             m = ults[random.randint(0, len(ults))]
             await message.channel.send(m)
 
-bot.run(TOKEN)
+bot.run(DISCORD_BOT_TOKEN)
