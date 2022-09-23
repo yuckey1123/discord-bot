@@ -1,7 +1,7 @@
 # discord-bot
 
-Discord の Bot を作ってみた
+Pythonで動くDiscordのBotです。
 
-# 参考サイト
+## 参考
 
 https://qiita.com/PinappleHunter/items/af4ccdbb04727437477f
